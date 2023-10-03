@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Barriecito&family=Bebas+Neue&family=Borel&family=Caveat&family=Comic+Neue&family=DM+Serif+Display:ital@1&family=Dosis:wght@800&family=Libre+Baskerville&family=Lora:ital,wght@0,400;1,400;1,600&family=Montserrat&family=Mooli&family=Open+Sans:wght@300&family=Orbitron&family=Pacifico&family=Pangolin&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            text-align: center;
+            background-image: url(./lady-black.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        img {
+            height:150px;
+            border-radius: 100%;
+        }
+        .item1 {
+            margin-top: 10%;
+        }
+        .container {
+            background-color: #DAD4B5;
+        }
+        .item {
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           margin-bottom: 5%;
+        }
+        button {
+            background-color: black;
+            color:white;
+            height: 50px;
+            width:100px;
+            border-radius: 20%;
+            cursor: pointer;
+            font-family: 'Borel', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><img src="./lady-black.png"  alt="lady"></div>
+        <div class="item">
+           <div class="item1"><button>PROFILE</button></div>
+           <div><button>SETTINGS</button></div>
+           <div><button>WALLPAPER</button></div>
+           <div><button>CHATS</button></div>
+           <div><button>LOGOUT</button></div>
+      </div>
+ </div>
+</body>
+</html>
